@@ -1,0 +1,8 @@
+query StatesQuery {
+ 	states {
+    results{
+    	id
+      key
+    }
+  }
+}

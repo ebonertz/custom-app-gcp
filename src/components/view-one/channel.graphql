@@ -1,0 +1,8 @@
+query ChannelsQuery {
+  channels {
+    results{
+      name(locale: "en")
+      id
+    }
+  }
+}

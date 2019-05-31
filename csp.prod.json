@@ -1,0 +1,5 @@
+{
+  "script-src": ["mc-custom-application.now.sh"],
+  "connect-src": ["mc-custom-application.now.sh"],
+  "style-src": ["mc-custom-application.now.sh"]
+}

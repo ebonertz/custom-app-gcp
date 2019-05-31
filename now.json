@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "public": true,
+  "name": "mc-examples-starter",
+  "alias": "mc-examples-starter",
+  "regions": ["bru"],
+  "files": [
+    "dist",
+    "csp.json",
+    "env.prod.json",
+    "now.json",
+    "package.json"
+  ]
+}
