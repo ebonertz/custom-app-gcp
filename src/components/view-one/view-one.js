@@ -23,7 +23,7 @@ const Channels = () => (
 
     return (
         <Text.Headline elementType="h1">
-          {`Channel: ${JSON.stringify(data.channels)}`}
+          {`Channel: ${JSON.stringify(data.channels.results)}`}
         </Text.Headline>
       );
     }}

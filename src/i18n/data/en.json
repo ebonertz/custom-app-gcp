@@ -1,7 +1,9 @@
 {
   "MainView.labelLinkOne": "Channels",
   "MainView.labelLinkTwo": "States",
+  "MainView.labelLinkThree": "User",
   "MainView.title": "Weclome to Your Custom Application",
   "ViewOne.title": "Channels",
-  "ViewTwo.title": "States"
+  "ViewTwo.title": "States",
+  "ViewThree.title":"User"
 }

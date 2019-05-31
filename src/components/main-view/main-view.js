@@ -11,6 +11,7 @@ import {
 } from '@commercetools-frontend/ui-kit';
 import ViewOne from '../view-one';
 import ViewTwo from '../view-two';
+import ViewThree from '../view-three';
 import messages from './messages';
 import styles from './main-view.mod.css';
 
@@ -40,11 +41,21 @@ const MainView = props => (
               />
             )}
           </FormattedMessage>
+          <FormattedMessage {...messages.labelLinkThree}>
+            {label => (
+              <LinkButton
+                to={`${props.match.url}/three`}
+                iconLeft={<TableIcon />}
+                label={label}
+              />
+            )}
+          </FormattedMessage>
         </Spacings.Inline>
       </div>
       <Switch>
         <Route path={`${props.match.path}/one`} component={ViewOne} />
         <Route path={`${props.match.path}/two`} component={ViewTwo} />
+        <Route path={`${props.match.path}/three`} component={ViewThree} />
       </Switch>
     </Spacings.Stack>
   </Spacings.Inset>

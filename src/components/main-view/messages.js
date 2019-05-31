@@ -16,4 +16,9 @@ export default defineMessages({
     description: 'The label for the link to page two',
     defaultMessage: 'Page two',
   },
+  labelLinkThree: {
+    id: 'MainView.labelLinkThree',
+    description: 'The label for the link to page three',
+    defaultMessage: 'Page three',
+  }
 });
