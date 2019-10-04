@@ -28,8 +28,8 @@
     "@emotion/babel-preset-css-prop": "^10.0.9",
     "apollo-utilities": "^1.3.2",
     "prop-types": "15.7.2",
-    "react": "16.8.6",
-    "react-apollo": "^3.1.1",
+    "react": "^16.10.2",
+    "react-apollo": "^3.1.2",
     "react-dom": "16.8.6",
     "react-intl": "^3.3.2",
     "react-redux": "7.1.0",
@@ -38,10 +38,10 @@
     "redux": "4.0.1"
   },
   "devDependencies": {
-    "@commercetools-frontend/jest-preset-mc-app": "15.1.4",
+    "@commercetools-frontend/jest-preset-mc-app": "15.1.6",
     "@commercetools-frontend/mc-scripts": "15.1.6",
     "enzyme": "3.10.0",
     "jest": "24.8.0",
-    "react-testing-library": "8.0.1"
+    "react-testing-library": "^8.0.1"
   }
 }
