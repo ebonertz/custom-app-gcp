@@ -1,0 +1,7 @@
+{
+  "csp": {
+    "script-src": ["current-user-cagcp.firebaseapp.com"],
+    "connect-src": ["current-user-cagcp.firebaseapp.com"],
+    "style-src": ["current-user-cagcp.firebaseapp.com"]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/@(login|logout)",
+        "function": "customAppFallback"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(js.map|js|css|txt|html|png)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "s-maxage=31536000,immutable"
+          }
+        ]
+      },
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Strict-Transport-Security",
+            "value": "max-age=31536000"
+          },
+          {
+            "key": "X-XSS-Protection",
+            "value": "1; mode=block"
+          },
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "X-Frame-Options",
+            "value": "DENY"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "same-origin"
+          },
+          {
+            "key": "Content-Security-Policy",
+            "value": "default-src 'none'; script-src 'self' storage.googleapis.com/mc-production-eu/ storage.googleapis.com/mc-production-us/ www.googletagmanager.com/gtm.js www.google-analytics.com/analytics.js 'sha256-iCsbBoM8bmUkPtv6ycSYza0igOOTRcTlRPlJQRsSWb4=' 'sha256-10kKQEp2S6U/f4Jjk+THj3d4b9c1/YDfYO5CUs5deBk=' 'sha256-LYR9oAcd5PlYzTm4N6zz0HO4YIvqe+x+Iuykb9aAJeg=' current-user-cagcp.firebaseapp.com; connect-src 'self' mc-api.commercetools.com mc-api.commercetools.co app.launchdarkly.com clientstream.launchdarkly.com events.launchdarkly.com app.getsentry.com sentry.io www.google-analytics.com current-user-cagcp.firebaseapp.com; img-src * data:; style-src 'self' fonts.googleapis.com data: storage.googleapis.com/mc-production-eu/ storage.googleapis.com/mc-production-us/ 'unsafe-inline' current-user-cagcp.firebaseapp.com; font-src 'self' fonts.gstatic.com data:; upgrade-insecure-requests "
+          },
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      }
+    ],
+    "target": "cagcp"
+  }
+}

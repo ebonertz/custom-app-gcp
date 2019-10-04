@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[43],{"./menu.json":function(e){e.exports=JSON.parse('{"key":"custom","uriPath":"custom","icon":"RocketIcon","permissions":["ViewProducts","ManageProducts"],"featureToggle":null,"submenu":[],"labelAllLocales":[{"locale":"en","value":"Custom"},{"locale":"de","value":"Custom"},{"locale":"es","value":"Custom"}]}')}}]);
+//# sourceMappingURL=43.43.b1891541cc8822574d8b.js.map

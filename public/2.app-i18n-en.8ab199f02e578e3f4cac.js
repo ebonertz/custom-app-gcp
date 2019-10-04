@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{"./src/i18n/data/en.json":function(e){e.exports=JSON.parse('{"MainView.labelLinkOne":"Channels","MainView.labelLinkTwo":"States","MainView.labelLinkThree":"User","MainView.title":"Weclome to Your Custom Application","ViewOne.title":"Channels","ViewTwo.title":"States","ViewThree.title":"User"}')}}]);
+//# sourceMappingURL=2.app-i18n-en.8ab199f02e578e3f4cac.js.map
